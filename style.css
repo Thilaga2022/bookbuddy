@@ -1,0 +1,115 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fefae0;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    min-height: 100vh;
+  }
+  
+  .wrapper {
+    text-align: center;
+    max-width: 700px;
+    padding: 40px 20px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(108, 163, 190, 0.1);
+    height: fit-content;
+    margin-top: 10px;
+  }
+  
+  h1 {
+    color: #386641;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+  }
+  
+  .radio-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .radio-buttons label {
+    font-size: 1rem;
+    color: #588157;
+    cursor: pointer;
+  }
+  
+  .book-card {
+    display: block;
+    padding: 20px;
+    border: 2px solid #ccd5ae;
+    border-radius: 15px;
+    background-color: #fefae0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    margin-top: 3vw;
+  }
+  
+  .book-card img {
+    max-width: 25em;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .book-card h2 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .book-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #6a994e;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .book-card a:hover {
+    color: #386641;
+  }
+  .book-list{
+    display: flex;
+    gap: 5px;
+  }
+  
+  #btn{
+    padding: 10px;
+    border: 2px solid black;
+    background-color: #386641;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+  .book-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 25%;
+    flex-grow: 1;
+    align-items: center;
+    margin: 5px;
+    border:1px dotted #386641;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  
